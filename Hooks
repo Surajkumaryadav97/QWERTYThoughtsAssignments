@@ -1,0 +1,7 @@
+ useCallback:It is a hook that will return a memoized version of the callback function that only changes if one of the dependencies has changed.
+Memoization is a way to cache a result so that it doesn’t need to be computed again.
+useCallback hooks helps in re-rendering the DOM using virtual DOM Using (diff algorithm which is used to compare previous VDOM to current VDOM and then if any changes found then it will re-render the page using original DOM.)
+
+useContext:when our parent child relation components becomes so nested then it will become very painful to pass the parent properties to its children using props this problem is called "PROPS DRILLING".
+thats why we use useContext to avoid this problem which comes from react library and it becomes global store of data which can be access by any components.
+

@@ -1,0 +1,6 @@
+Diameter will be 40 because this is referencing to the current function
+and in JS function has its own constructor and currentobject is circle  due to this radius will be
+in its scope.
+
+Perimeter will be NaN because this.radius is now not referencing to 
+the circleobject,it is referencing to the GLOBAL object.
